@@ -36,3 +36,161 @@
     transform: rotate(360deg);
   }
 }
+
+/* #root {
+  text-align: center;
+} */
+/* button {
+  height: 50px;
+  width: 50px;
+  background-color: #f1f3f1;
+  font-size: 18px;
+}
+input {
+  height: 40px;
+  width: 192px;
+  font-size: 30px;
+  text-align: right;
+  background-color: #f1e6a1;
+} */
+.notactive {
+  display: none;
+}
+a.next{
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+a.previous {
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+.box {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.box.green {
+  background-color: green; 
+}
+.box.notactive {
+  display: none;
+}
+.top {
+  
+  top: 8px;
+  left: 16px;
+  width: 100%;
+  
+}
+
+.bottom {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.left {
+  position: absolute; 
+  
+  width: 100px;
+  height: 100vh;
+  word-wrap: break-word;
+}
+.right {
+  position: absolute;
+  right: -20px;
+  width: 100px;
+  height: 100vh;
+  border: 3px solid blue;
+  word-wrap: break-word;
+}
+.close {
+  text-align: right;
+  font-size: 50px;
+  font-weight: 800; 
+}
+.closeannouncement{
+  display: none;
+}
+.hide{
+  display: none;
+}
+#hideMe {
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.hide-after-5sec{
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.hide-after-10sec{
+  -moz-animation: cssAnimation 0s ease-in 10s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 10s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 10s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 10s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      visibility:hidden;
+  }
+}
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+.animate {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+h1 {
+  text-align: center;
+}
+.no-animate {
+  text-align: center;
+}
